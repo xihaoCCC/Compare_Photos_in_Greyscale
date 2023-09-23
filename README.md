@@ -7,23 +7,21 @@ and the Kolmogorov–Smirnov test (KS test). These methods compare the greyscale
 photos is my presence, occupying roughly 10% of the frame. The results consistently indicate a high similarity between the two images.
 
 ## Setup
-This project is developed using Python 3. Refer to `main.ipynb` for the required packages.
+This project is developed using Python 3 and Jupyter Notebook. Refer to `photos_compare.ipynb` for the required packages.
 
 
 ## File Descriptions
-- `main.ipynb`: Python notebook responsible for data generation and model construction.
-- `fit_gaussian.html`: HTML export of the `main.ipynb` notebook.
-- `presentation.mp4`: A brief video presentation discussing the work and key concepts of the project.
+- `photos_compare.ipynb`: Python notebook for the greyscale analysis of two photos.
+- `photos_compare.pdf`: The PDF format of the main script.
+- `withme.png`: A photo of me sitting in Suzzallo library at University of Washington.
+- `withoutme.png`: Another photo taken at the same place without me.
 
 
 ## Content
-This project includes 7 parts in total, specifically: 
-1. Synthesize a multimodal Gaussian distribution
-2. Fit a piecewise linear regression model
-3. Fit three spline models with 2, 3, and 4 knots respectively
-4. Compare the R-squared values and root mean square deviations (RMSD) of the models from the previous sections
-5. Fit four polynomial models with degree 2,3,4,5 respectively
-6. Compare the fitting times of the constructed models
-7. Construct two polynomial models of degree 5 using Lasso and Ridge regularization techniques
+This project includes 3 parts, specifically: 
+1.Import and display the two photos.
+2.Plot the greyscale histograms of both photos.
+3.Employ three statistical tools to quantify the similarities between the greyscale distributions of the two photos.
+
 
 ### For inquiries or further discussion, please reach out to me at [xihaocao@163.com](mailto:xihaocao@163.com). Thank you!
