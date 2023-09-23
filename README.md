@@ -1,4 +1,4 @@
-# Comparasion two images' Greyscales by Statistical tools 
+# Analyzing Image Similarity Using Greyscale Statistical Measures
 
 ## Summary
 In this project, I analyzed two photos taken at the Suzzallo library at the University of Washington: one with me present and one without. 
